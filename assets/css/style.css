@@ -42,7 +42,7 @@ li a:hover {
 
 section.hero
 {
-  background-image: url("/challenge-02/assets/images/hero-shot.jpg");
+  background-image: url(/challenge-02/assets/images/hero-shot.jpg);
   background-color: var(--bg); 
   height: 500px;
   background-position: center; 
@@ -59,14 +59,18 @@ section.hero
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
- 
 }
 
 .page-header{
+  width: 25%;
   padding: 20px;
   margin: 20px;
-  outline: 2px dashed red;
-  outline-offset: -2px;
+  border-right: 5px solid var(--bg-accent);
+  color: var(--header-text);
+}
+
+.page-header h2{
+  font-size: 150%;
 }
 
 .page-section {
@@ -91,7 +95,18 @@ section.hero
 
 #hero-card{
   flex: 0 0 100%;
-  background-color: green;
+  background-image: url(/challenge-02/assets/images/hero-shot.jpg);
+  background-color: var(--bg); 
+  height: 500px;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+  background-color: var(--bg-accent);
+}
+
+.page-section a{
+  text-decoration: none;
+  color: var(--text);
 }
 
 footer {
