@@ -1,3 +1,69 @@
-*{
-    
+:root{
+  --bg: #fcf2d4;
+  --bg-accent:  #2b294c;
+  --header-text: #2b294c;
+  --text: #2b294c;
 }
+
+body {
+background-color: var(--bg);
+}
+
+header{
+    background-color: var(--bg-accent);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1{
+    font-size: 200%;
+    color: var(--header-text);
+    margin: 1% 0;
+    background-color: var(--bg);
+}
+
+.navbar {
+    display: flex;
+}
+
+li a {
+    display: block;
+    padding: 10px;
+    background-color: var(--bg-accent);
+    color: var(--bg);
+    text-decoration: none;
+  }
+
+li a:hover {
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+section.hero
+{
+  background-image: url("/challenge-02/assets/images/hero-shot.jpg");
+  background-color: var(--bg); 
+  height: 500px;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+
+.hero h2{
+  background-color: var(--bg);
+  color: var(--header-text);
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.page-section {
+  display: flex;
+
+}
+
+
+
