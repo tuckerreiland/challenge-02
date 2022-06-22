@@ -2,6 +2,7 @@
   --bg: #fcf2d4;
   --bg-accent:  #2b294c;
   --header-text: #2b294c;
+  --header-text-alt: #f98a30cd;
   --text: #2b294c;
 }
 
@@ -31,7 +32,7 @@ header{
 
 header h1{
     font-size: 200%;
-    color: var(--header-text);
+    color: var(--header-text-);
     margin: 20px;
     padding: 20px;
     background-color: var(--bg);
@@ -55,7 +56,7 @@ li a {
 
 li a:hover {
   background-color: var(--bg);
-  color: var(--text);
+  color: var(--header-text-alt);
 }
 
 section.hero
