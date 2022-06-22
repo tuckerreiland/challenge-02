@@ -21,7 +21,6 @@ header h1{
     color: var(--header-text);
     margin: 20px;
     padding: 20px;
-    padding-left: auto;
     background-color: var(--bg);
 }
 
@@ -31,7 +30,7 @@ header h1{
 
 li a {
     display: block;
-    padding: 10px;
+    padding: 5px;
     background-color: var(--bg-accent);
     color: var(--bg);
     text-decoration: none;
@@ -55,6 +54,8 @@ section.hero
 .hero h2{
   background-color: var(--bg);
   color: var(--header-text);
+  margin: 20px;
+  padding: 20px;
 }
 
 .content {
@@ -147,6 +148,10 @@ footer ul{
 }
 
 @media  screen and (max-width: 560px) {
+  header {
+    flex-direction: column;
+  }
+
   .content {
     flex-direction: column;
   }
