@@ -19,7 +19,9 @@ header{
 header h1{
     font-size: 200%;
     color: var(--header-text);
-    margin: 1% 0;
+    margin: 20px;
+    padding: 20px;
+    padding-left: auto;
     background-color: var(--bg);
 }
 
@@ -63,7 +65,7 @@ section.hero
 
 .page-header{
   width: 25%;
-  padding: 20px;
+  /* padding: 20px; */
   margin: 20px;
   border-right: 5px solid var(--bg-accent);
   color: var(--header-text);
@@ -80,7 +82,6 @@ section.hero
   flex-wrap: wrap;
   width: 100%;
   margin: 20px;
-  outline: 2px dashed red;
   outline-offset: -2px;
 }
 
@@ -90,10 +91,6 @@ flex: 0 0 100%;
 flex-direction: column;
 justify-content: flex-start;
 color: var(--text);
-padding: 20px;
-outline: 2px dashed red;
-outline-offset: -2px;
-background-color: green;
 }
 
 #hero-card{
@@ -101,10 +98,12 @@ background-color: green;
   background-image: url(/challenge-02/assets/images/hero-shot.jpg);
   background-color: var(--bg); 
   height: 500px;
+  padding: 20px;
   background-position: center; 
   background-repeat: no-repeat; 
   background-size: cover;
-  background-color: var(--bg-accent);
+  outline: 5px solid var(--bg-accent);
+  outline-offset: -2px;
 }
 
 .card {
@@ -113,10 +112,14 @@ background-color: green;
   justify-content: flex-start;
   color: var(--text);
   padding: 20px;
-  outline: 2px dashed red;
+  outline: 5px solid var(--bg-accent);
   outline-offset: -2px;
-  background-color: green;
 }
+
+.card-content{
+  position: absolute;
+}
+
 
 .page-section a{
   text-decoration: none;
@@ -131,9 +134,11 @@ footer {
 }
 
 footer h2{
-  font-size: 150%;
+  font-size: 175%;
   color: var(--header-text);
-  margin: 1% 0;
+  margin: 20px;
+  padding: 20px;
+  padding-left: auto;
   background-color: var(--bg);
 }
 
