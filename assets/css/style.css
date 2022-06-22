@@ -55,15 +55,59 @@ section.hero
   color: var(--header-text);
 }
 
-main {
+.content {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row;
+ 
+}
+
+.page-header{
+  padding: 20px;
+  margin: 20px;
+  outline: 2px dashed red;
+  outline-offset: -2px;
 }
 
 .page-section {
   display: flex;
-
+  flex: 1;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 20px;
+  margin: 20px;
+  outline: 2px dashed red;
+  outline-offset: -2px;
 }
 
+.card {
+  flex-direction: column;
+  justify-content: flex-start;
+  color: var(--text);
+  padding: 20px;
+  outline: 2px dashed red;
+  outline-offset: -2px;
+}
 
+#hero-card{
+  flex: 0 0 100%;
+  background-color: green;
+}
 
+footer {
+  background-color: var(--bg-accent);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer h2{
+  font-size: 150%;
+  color: var(--header-text);
+  margin: 1% 0;
+  background-color: var(--bg);
+}
+
+footer ul{
+  display: flex;
+}
