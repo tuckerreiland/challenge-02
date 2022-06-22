@@ -2,7 +2,7 @@
   --bg: #fcf2d4;
   --bg-accent:  #2b294c;
   --header-text: #2b294c;
-  --header-text-alt: #f98a30cd;
+  --header-text-alt: #b15d18;
   --text: #2b294c;
 }
 
@@ -74,6 +74,7 @@ section.hero
   color: var(--header-text);
   margin: 20px;
   padding: 20px;
+  width: 25%;
 }
 
 .content {
@@ -147,18 +148,11 @@ color: var(--text);
 .card-content{
   position: relative;
   bottom: 0px;
-  background-color: var(--bg-accent);
   color: var(--bg);
   max-width:50%;
   padding: 5px;
   margin: 5px;
 }
-
-/* .card-content h3{
-  background-color: var(--bg-accent);
-  color: var(--bg);
-} */
-
 
 .page-section a{
   text-decoration: none;
