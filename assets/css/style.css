@@ -75,22 +75,25 @@ section.hero
 
 .page-section {
   display: flex;
+  flex-direction: row;
   flex: 1;
   flex-wrap: wrap;
   width: 100%;
-  padding: 20px;
   margin: 20px;
   outline: 2px dashed red;
   outline-offset: -2px;
 }
 
-.card {
-  flex-direction: column;
-  justify-content: flex-start;
-  color: var(--text);
-  padding: 20px;
-  outline: 2px dashed red;
-  outline-offset: -2px;
+
+.about p{
+flex: 0 0 100%;
+flex-direction: column;
+justify-content: flex-start;
+color: var(--text);
+padding: 20px;
+outline: 2px dashed red;
+outline-offset: -2px;
+background-color: green;
 }
 
 #hero-card{
@@ -102,6 +105,17 @@ section.hero
   background-repeat: no-repeat; 
   background-size: cover;
   background-color: var(--bg-accent);
+}
+
+.card {
+  flex: 0 0 50%;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: var(--text);
+  padding: 20px;
+  outline: 2px dashed red;
+  outline-offset: -2px;
+  background-color: green;
 }
 
 .page-section a{
@@ -125,4 +139,15 @@ footer h2{
 
 footer ul{
   display: flex;
+}
+
+@media  screen and (max-width: 560px) {
+  .content {
+    flex-direction: column;
+  }
+
+  .page-header {
+    border-right: 0px;
+    border-bottom:  5px solid var(--bg-accent);
+  }
 }
