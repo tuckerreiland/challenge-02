@@ -26,11 +26,14 @@ header h1{
 
 .navbar {
     display: flex;
+    padding: 20px;
 }
 
 li a {
     display: block;
     padding: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
     background-color: var(--bg-accent);
     color: var(--bg);
     text-decoration: none;
@@ -127,6 +130,10 @@ color: var(--text);
   color: var(--text);
 }
 
+#refactor {
+  background-image: url(/assets/images/refactor-image.png);
+}
+
 footer {
   background-color: var(--bg-accent);
   display: flex;
@@ -145,12 +152,17 @@ footer h2{
 
 footer ul{
   display: flex;
+  padding: 20px;
 }
 
 @media  screen and (max-width: 560px) {
-  header {
+  header, footer, footer ul {
     flex-direction: column;
   }
+  footer {
+    align-items: flex-start;
+  }
+
 
   .content {
     flex-direction: column;
