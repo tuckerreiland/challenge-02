@@ -9,6 +9,19 @@ body {
 background-color: var(--bg);
 }
 
+h2 {
+  font-size: 175%;
+}
+
+h3 {
+  font-size: 150%;
+}
+
+h4 {
+  font-size: 100%;
+  font-weight: lighter;
+}
+
 header{
     background-color: var(--bg-accent);
     display: flex;
@@ -31,12 +44,13 @@ header h1{
 
 li a {
     display: block;
-    padding: 5px;
+    padding: 10px;
     margin-left: 5px;
     margin-right: 5px;
     background-color: var(--bg-accent);
     color: var(--bg);
     text-decoration: none;
+    font-weight: bold;
   }
 
 li a:hover {
@@ -107,7 +121,16 @@ color: var(--text);
   background-repeat: no-repeat; 
   background-size: cover;
   outline: 5px solid var(--bg-accent);
-  outline-offset: -2px;
+  outline-offset: -2px; 
+}
+.hero-card-content{
+  position: relative;
+  bottom: 0px;
+  background-color: var(--bg-accent);
+  color: var(--bg);
+  max-width: 25%;
+  padding: 10px;
+  margin: 10px;
 }
 
 .card {
@@ -121,17 +144,24 @@ color: var(--text);
 }
 
 .card-content{
-  position: absolute;
+  position: relative;
+  bottom: 0px;
+  background-color: var(--bg-accent);
+  color: var(--bg);
+  max-width:50%;
+  padding: 5px;
+  margin: 5px;
 }
+
+/* .card-content h3{
+  background-color: var(--bg-accent);
+  color: var(--bg);
+} */
 
 
 .page-section a{
   text-decoration: none;
   color: var(--text);
-}
-
-#refactor {
-  background-image: url(/assets/images/refactor-image.png);
 }
 
 footer {
@@ -142,7 +172,6 @@ footer {
 }
 
 footer h2{
-  font-size: 175%;
   color: var(--header-text);
   margin: 20px;
   padding: 20px;
