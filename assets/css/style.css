@@ -79,6 +79,7 @@ section.hero
   margin: 20px;
   padding: 20px;
   min-width: fit-content;
+  width: 25%;
 }
 
 .content {
