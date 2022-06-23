@@ -34,6 +34,7 @@ header{
 
 header h1{
     display: flex;
+    justify-content: flex-start;
     font-size: 200%;
     color: var(--header-text);
     margin: 20px;
@@ -186,6 +187,12 @@ footer h2{
 footer ul{
   display: flex;
   padding: 20px;
+}
+
+@media  screen and (max-width: 1000px) {
+  footer ul {
+    flex-direction: column;
+  }
 }
 
 @media  screen and (max-width: 760px) {
