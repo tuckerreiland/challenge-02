@@ -169,8 +169,15 @@ color: var(--text);
   color: var(--text);
 }
 
-div.card a:hover{
+div#hero-card:hover{
   background-color: var(--header-text-alt);
+  opacity: 50%;
+  color: var(--text);
+}
+
+div.card:hover{
+  background-color: var(--header-text-alt);
+  opacity: 50%;
   color: var(--text);
 }
 
