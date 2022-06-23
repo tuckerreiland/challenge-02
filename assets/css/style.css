@@ -111,7 +111,7 @@ section.hero
   outline-offset: -2px;
 }
 
-.about p{
+#about p{
 flex: 0 0 100%;
 flex-direction: column;
 justify-content: flex-start;
@@ -119,6 +119,7 @@ color: var(--text);
 }
 
 #hero-card{
+  display: inline-block;
   flex: 0 0 100%;
   background-image: url(/challenge-02/assets/images/hero-shot.jpg);
   background-color: var(--bg); 
@@ -129,6 +130,10 @@ color: var(--text);
   background-size: cover;
   outline: 5px solid var(--bg-accent);
   outline-offset: -2px; 
+}
+
+#hero-card a{
+  justify-content: stretch;
 }
 
 .hero-card-content{
@@ -160,7 +165,7 @@ color: var(--text);
   color: var(--bg);
   min-width: fit-content;
   max-width: 50%;
-  padding: 5px;
+  padding: 10px;
   margin: 5px;
 }
 
@@ -170,14 +175,14 @@ color: var(--text);
 }
 
 div#hero-card:hover{
-  background-color: var(--header-text-alt);
-  opacity: 50%;
+  background-color: var(--bg);
+  opacity: 75%;
   color: var(--text);
 }
 
 div.card:hover{
-  background-color: var(--header-text-alt);
-  opacity: 50%;
+  background-color: var(--bg);
+  opacity: 75%;
   color: var(--text);
 }
 
