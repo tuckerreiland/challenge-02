@@ -16,7 +16,6 @@ h2 {
 
 h3 {
   font-size: 150%;
-
 }
 
 h4 {
@@ -46,7 +45,6 @@ header h1{
 
 .navbar {
     display: flex;
-    padding: 20px;
 }
 
 li a {
@@ -80,7 +78,7 @@ section.hero
   color: var(--header-text);
   margin: 20px;
   padding: 20px;
-  width: 25%;
+  min-width: fit-content;
 }
 
 .content {
@@ -91,7 +89,7 @@ section.hero
 
 .page-header{
   width: 25%;
-  /* padding: 20px; */
+  padding: 5px;
   margin: 20px;
   border-right: 5px solid var(--bg-accent);
   color: var(--header-text);
@@ -213,16 +211,16 @@ footer ul{
 }
 
 @media  screen and (max-width: 760px) {
-  header, footer, footer ul {
+  header, footer, footer ul, .navbar, .content {
     flex-direction: column;
   }
-  footer {
+
+  .card{
+    flex: 0 0 100%;
+  }
+
+  header, footer {
     align-items: flex-start;
-  }
-
-
-  .content {
-    flex-direction: column;
   }
 
   .page-header {
