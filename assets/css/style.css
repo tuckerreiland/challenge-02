@@ -150,7 +150,7 @@ color: var(--text);
 #code-refactor{
   background-image: url(/challenge-02/assets/images/refactor-image.png);
   background-color: var(--bg); 
-  height: 500px;
+  height: 250px;
   padding: 20px;
   background-position: center; 
   background-repeat: no-repeat; 
@@ -160,7 +160,7 @@ color: var(--text);
 #mock-portfolio{
   background-image: url(/challenge-02/assets/images/mock-portfolio.png);
   background-color: var(--bg); 
-  height: 500px;
+  height: 250px;
   padding: 20px;
   background-position: center; 
   background-repeat: no-repeat; 
