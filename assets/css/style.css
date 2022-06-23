@@ -169,6 +169,11 @@ color: var(--text);
   color: var(--text);
 }
 
+div.card a:hover{
+  background-color: var(--header-text-alt);
+  color: var(--text);
+}
+
 footer {
   background-color: var(--bg-accent);
   display: flex;
