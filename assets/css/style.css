@@ -16,11 +16,13 @@ h2 {
 
 h3 {
   font-size: 150%;
+
 }
 
 h4 {
   font-size: 100%;
   font-weight: lighter;
+  min-width: fit-content;
 }
 
 header{
@@ -134,12 +136,14 @@ color: var(--text);
   background-color: var(--bg-accent);
   color: var(--bg);
   max-width: 25%;
+  min-width: fit-content;
   padding: 10px;
   margin: 10px;
 }
 
 .card {
   flex: 0 0 50%;
+  min-width: 50%;
   flex-direction: column;
   justify-content: flex-start;
   color: var(--text);
@@ -153,7 +157,8 @@ color: var(--text);
   bottom: 0px;
   background-color: var(--bg-accent);
   color: var(--bg);
-  max-width:50%;
+  min-width: fit-content;
+  max-width: 50%;
   padding: 5px;
   margin: 5px;
 }
@@ -183,7 +188,7 @@ footer ul{
   padding: 20px;
 }
 
-@media  screen and (max-width: 560px) {
+@media  screen and (max-width: 760px) {
   header, footer, footer ul {
     flex-direction: column;
   }
