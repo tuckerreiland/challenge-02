@@ -147,6 +147,26 @@ color: var(--text);
   margin: 10px;
 }
 
+#code-refactor{
+  background-image: url(/challenge-02/assets/images/refactor-image.png);
+  background-color: var(--bg); 
+  height: 500px;
+  padding: 20px;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+
+#mock-portfolio{
+  background-image: url(/challenge-02/assets/images/mock-portfolio.png);
+  background-color: var(--bg); 
+  height: 500px;
+  padding: 20px;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+
 .card {
   flex: 0 0 50%;
   min-width: 50%;
