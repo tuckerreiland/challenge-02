@@ -167,6 +167,16 @@ color: var(--text);
   background-size: cover;
 }
 
+#dnd-machine{
+  background-image: url(/challenge-02/assets/images/DnD-screenshot.png);
+  background-color: var(--bg); 
+  height: 250px;
+  padding: 20px;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+
 .card {
   flex: 0 0 50%;
   min-width: 50%;
